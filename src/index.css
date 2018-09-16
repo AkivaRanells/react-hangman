@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+.selected{
+  color: grey;
+  text-decoration-line: line-through;
+
+}
+.solutionLetter{
+  color: green;
+}
+.high-score{
+  color: green;
+}
+.medium-score{
+  color: yellow;
+}
+.low-score{
+  color: red;
+}
+.success-message{
+  color: green;
+  height: 50vh;
+  font-size: 25vh;
+}
+.game-over{
+  height: 50vh;
+  color: black;
+  font-size: 25vh;
+  animation-name: game-over;
+  animation-duration: 5s;
+}
+@keyframes game-over{
+  25% {background-color:yellow}
+  50% {background-color: orange}
+  75% {background-color: red}
+}
